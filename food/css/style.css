@@ -1,0 +1,58 @@
+body{
+    background-color:rgb(240, 248, 255);
+    }
+    #navbar {
+      display: flex;             
+      font-size: 30px;     
+      background-color: rgb(95, 158, 160);
+      width: 100%;
+      color:black;
+    
+     
+    }
+    #navbar a{
+    color: black;     
+    justify-content: right; 
+    font-size:20px;
+    position:absolute;
+    text-decoration:none;
+    }
+    
+    #fed {
+    
+        
+        background-image: url('../img/food2.jpg'); 
+        background-size: cover; 
+        background-position: center; 
+        height: 400px; 
+        width: 100%;
+      }
+      
+    #font {
+      color: rgb(133, 183, 245); 
+      height: 100px;
+      width: 100%; 
+      font-size: 40px; 
+      text-align: center;
+    }
+
+    #footer{
+        display: flex;           
+            
+      }
+      #footer pre{
+        color: white; 
+        font-size: 25px; 
+        margin-left:10%;
+        font-family: forte;
+        
+      }
+      #footer a{
+        color: white; 
+        font-size: 25px; 
+        margin-left:12%;
+        font-family: forte;
+        text-decoration: solid;
+        
+      }
+    
